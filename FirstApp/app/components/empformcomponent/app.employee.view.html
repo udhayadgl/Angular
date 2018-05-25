@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container" [hidden]="isSubmitted">
+        <form name="frmemp" (ngSubmit)="save()" [formGroup]="frmGroup">
+            <table class="table table-dark">
+                <tbody>
+                    <tr>
+                        <td>Employee No: </td>
+                        <td>
+                            <input type="text" required pattern="[0-9]*" name="EmpNo" formControlName="EmpNo" class="form-control" [(ngModel)]="emp.empNo">
+                            <div *ngIf="frmGroup.controls.EmpNo.dirty && !frmGroup.controls.EmpNo.valid" class="alert alert-danger">
+                                <p *ngIf="frmGroup.controls.EmpNo.errors.required">
+                                    Employee number must be there!!
+                                </p>
+                                <p *ngIf="frmGroup.controls.EmpNo.errors.pattern">
+                                    Employee no must be numeric!!
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Employee Name: </td>
+                        <td>
+                            <input type="text" required pattern="[a-z,A-Z]*" name="EmpName" formControlName="EmpName" class="form-control" [(ngModel)]="emp.empName">
+                            <div *ngIf="frmGroup.controls.EmpName.dirty && !frmGroup.controls.EmpName.valid" class="alert alert-danger">
+                                <p *ngIf="frmGroup.controls.EmpName.errors.required">
+                                    Employee name must be there!!
+                                </p>
+                                <p *ngIf="frmGroup.controls.EmpName.errors.pattern">
+                                    Employee name should not contain numberic!!
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Salary: </td>
+                        <td>
+                            <input type="text" required pattern="[0-9]*" name="Salary" formControlName="Salary" class="form-control" [(ngModel)]="emp.Salary">
+                            <div *ngIf="frmGroup.controls.Salary.dirty && !frmGroup.controls.Salary.valid" class="alert alert-danger">
+                                <p *ngIf="frmGroup.controls.Salary.errors.required">
+                                    Salary must be there!!
+                                </p>
+                                <p *ngIf="frmGroup.controls.Salary.errors.pattern">
+                                    Salary must be numeric!!
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Department Name: </td>
+                        <td>
+                            <select name="Department" formControlName="Department" class="form-control" [(ngModel)]="emp.DeptName">
+                                <option *ngFor="let d of depts" value="{{d}}">{{d}}</option>
+                            </select>
+                            <div *ngIf="frmGroup.controls.Department.dirty && !frmGroup.controls.Department.valid" class="alert alert-danger">
+                                <p *ngIf="frmGroup.controls.Department.errors.required">
+                                    Please select department!!
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Designation: </td>
+                        <td>
+                            <select name="Designation" formControlName="Designation" class="form-control" [(ngModel)]="emp.Designation">
+                                <option *ngFor="let d of desigs" value="{{d}}">{{d}}</option>
+                            </select>
+                            <div *ngIf="frmGroup.controls.Designation.dirty && !frmGroup.controls.Designation.valid" class="alert alert-danger">
+                                <p *ngIf="frmGroup.controls.EmpNo.errors.required">
+                                        Please select designation!!
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" value="New" (click)="clear()" class="btn btn-defalut">
+                        </td>
+                        <td>
+                            <input type="submit" value="Save" [disabled]="!frmGroup.valid" class="btn btn-success">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <div class="container" [hidden]="!isSubmitted">
+        <table class="table table-light table-bordered">
+            <thead>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="ckbheader" [checked]="checkAll()" (change)="isAllChecked()">
+                    </td>
+                    <td *ngFor="let h of tableHeaders">{{h}}</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let e of emps" (click)="getSelectedItem(e)">
+                    <td>
+                        <input type="checkbox" id="ckb{{e.empNo}}" [(ngModel)]="isChecked">
+                    </td>
+                    <td *ngFor="let c of tableHeaders">{{e[c]}}</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">
+                        <input type="button" value="Load Form" class="btn btn-warning" (click)="loadForm()">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>

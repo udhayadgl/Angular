@@ -1,0 +1,22 @@
+<table>
+    <thead>
+        <tr>Parent Component</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <app-childone (valueChangeOP)='displayCounter($event)'></app-childone>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <app-childone (valueChangeOP)='displayCounter($event)'></app-childone>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <app-childtwo [childMessage]="parentMessage"></app-childtwo>
+            </td>
+        </tr>
+    </tbody>
+</table>

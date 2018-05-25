@@ -1,0 +1,625 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of C:\Users\udhayakumar.m\Documents\Day10\package.json
+5 warn package.json ng5-webpack@1.0.0 No description
+6 warn package.json ng5-webpack@1.0.0 No repository field.
+7 warn package.json ng5-webpack@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\angular2-template-loader\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\autoprefixer\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\awesome-typescript-loader\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\bootstrap\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\bootstrap-loader\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\bootstrap-sass\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\bootstrap-webpack\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\codelyzer\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\concurrently\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\core-js\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\css-loader\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\exports-loader\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\extract-text-webpack-plugin\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\file-loader\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\html-loader\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\html-webpack-plugin\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\imports-loader\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\inline-manifest-webpack-plugin\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\jquery\package.json
+27 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\less\package.json
+28 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\less-loader\package.json
+29 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\node-sass\package.json
+30 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\postcss-flexbugs-fixes\package.json
+31 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\postcss-load-config\package.json
+32 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\postcss-loader\package.json
+33 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\raw-loader\package.json
+34 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\resolve-url-loader\package.json
+35 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\rimraf\package.json
+36 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\rxjs\package.json
+37 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\sass-loader\package.json
+38 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\script-ext-html-webpack-plugin\package.json
+39 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\style-loader\package.json
+40 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\systemjs\package.json
+41 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\ts-loader\package.json
+42 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\tslint\package.json
+43 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\tslint-loader\package.json
+44 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\typescript\package.json
+45 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\url-loader\package.json
+46 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\webpack\package.json
+47 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\webpack-dev-server\package.json
+48 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\webpack-merge\package.json
+49 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\zone.js\package.json
+50 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@types\node\package.json
+51 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\animations\package.json
+52 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\common\package.json
+53 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\compiler\package.json
+54 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\compiler-cli\package.json
+55 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\core\package.json
+56 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\elements\package.json
+57 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\forms\package.json
+58 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\http\package.json
+59 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\platform-browser\package.json
+60 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\platform-browser-dynamic\package.json
+61 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\platform-server\package.json
+62 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\router\package.json
+63 verbose installManyTop reading scoped package data from C:\Users\udhayakumar.m\Documents\Day10\node_modules\@angular\upgrade\package.json
+64 info package.json bootstrap-webpack@0.0.6 No license field.
+65 info package.json raw-loader@0.5.1 No license field.
+66 info package.json @types/node@8.10.17 Probably broken git url: git+https://github.com/DefinitelyTyped/DefinitelyTyped.git.git
+67 verbose readDependencies loading dependencies from C:\Users\udhayakumar.m\Documents\Day10\package.json
+68 silly cache add args [ 'node', null ]
+69 verbose cache add spec node
+70 silly cache add parsed spec { raw: 'node',
+70 silly cache add   scope: null,
+70 silly cache add   name: 'node',
+70 silly cache add   rawSpec: '',
+70 silly cache add   spec: '*',
+70 silly cache add   type: 'range' }
+71 silly addNamed node@*
+72 verbose addNamed "*" is a valid semver range for node
+73 silly addNameRange { name: 'node', range: '*', hasData: false }
+74 silly mapToRegistry name node
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/node
+78 verbose addNameRange registry:https://registry.npmjs.org/node not in flight; fetching
+79 verbose request uri https://registry.npmjs.org/node
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 3:05:40 PM
+82 verbose request id c50143b40b9b6511
+83 http request GET https://registry.npmjs.org/node
+84 http 200 https://registry.npmjs.org/node
+85 silly get cb [ 200,
+85 silly get   { 'content-type': 'application/json; charset=UTF-8',
+85 silly get     server: 'UploadServer',
+85 silly get     'cache-control': 'max-age=300',
+85 silly get     'last-modified': 'Sat, 19 May 2018 3:35:47 GMT',
+85 silly get     etag: '"5aff9b93-5e845"',
+85 silly get     'x-npm-region': 'Asia',
+85 silly get     'content-encoding': 'gzip',
+85 silly get     'content-length': '62817',
+85 silly get     'accept-ranges': 'bytes',
+85 silly get     date: 'Wed, 23 May 2018 09:35:41 GMT',
+85 silly get     via: '1.1 varnish',
+85 silly get     age: '7518',
+85 silly get     connection: 'keep-alive',
+85 silly get     'x-served-by': 'cache-sin18033-SIN',
+85 silly get     'x-cache': 'HIT',
+85 silly get     'x-cache-hits': '10',
+85 silly get     'x-timer': 'S1527068141.258693,VS0,VE0',
+85 silly get     vary: 'Accept-Encoding, Accept' } ]
+86 verbose get saving node to C:\Users\udhayakumar.m\AppData\Roaming\npm-cache\registry.npmjs.org\node\.cache.json
+87 silly addNameRange number 2 { name: 'node', range: '*', hasData: true }
+88 silly addNameRange versions [ 'node',
+88 silly addNameRange   [ '0.0.0',
+88 silly addNameRange     '0.1.14',
+88 silly addNameRange     '0.1.15',
+88 silly addNameRange     '0.1.16',
+88 silly addNameRange     '0.1.17',
+88 silly addNameRange     '0.1.18',
+88 silly addNameRange     '0.1.19',
+88 silly addNameRange     '0.1.20',
+88 silly addNameRange     '0.1.21',
+88 silly addNameRange     '0.1.22',
+88 silly addNameRange     '0.1.23',
+88 silly addNameRange     '0.1.24',
+88 silly addNameRange     '0.1.25',
+88 silly addNameRange     '0.1.26',
+88 silly addNameRange     '0.1.27',
+88 silly addNameRange     '0.1.28',
+88 silly addNameRange     '0.1.29',
+88 silly addNameRange     '0.1.30',
+88 silly addNameRange     '0.1.31',
+88 silly addNameRange     '0.1.32',
+88 silly addNameRange     '0.1.33',
+88 silly addNameRange     '0.1.90',
+88 silly addNameRange     '0.1.91',
+88 silly addNameRange     '0.1.92',
+88 silly addNameRange     '0.1.93',
+88 silly addNameRange     '0.1.94',
+88 silly addNameRange     '0.1.95',
+88 silly addNameRange     '0.1.96',
+88 silly addNameRange     '0.1.97',
+88 silly addNameRange     '0.1.98',
+88 silly addNameRange     '0.1.99',
+88 silly addNameRange     '0.1.100',
+88 silly addNameRange     '0.1.101',
+88 silly addNameRange     '0.1.102',
+88 silly addNameRange     '0.1.103',
+88 silly addNameRange     '0.1.104',
+88 silly addNameRange     '0.2.0',
+88 silly addNameRange     '0.2.1',
+88 silly addNameRange     '0.2.2',
+88 silly addNameRange     '0.2.3',
+88 silly addNameRange     '0.2.4',
+88 silly addNameRange     '0.2.5',
+88 silly addNameRange     '0.2.6',
+88 silly addNameRange     '0.3.0',
+88 silly addNameRange     '0.3.1',
+88 silly addNameRange     '0.3.2',
+88 silly addNameRange     '0.3.3',
+88 silly addNameRange     '0.3.4',
+88 silly addNameRange     '0.3.5',
+88 silly addNameRange     '0.3.6',
+88 silly addNameRange     '0.3.7',
+88 silly addNameRange     '0.3.8',
+88 silly addNameRange     '0.4.0',
+88 silly addNameRange     '0.4.1',
+88 silly addNameRange     '0.4.2',
+88 silly addNameRange     '0.4.3',
+88 silly addNameRange     '0.4.4',
+88 silly addNameRange     '0.4.5',
+88 silly addNameRange     '0.4.6',
+88 silly addNameRange     '0.4.7',
+88 silly addNameRange     '0.4.8',
+88 silly addNameRange     '0.4.9',
+88 silly addNameRange     '0.4.10',
+88 silly addNameRange     '0.4.11',
+88 silly addNameRange     '0.4.12',
+88 silly addNameRange     '0.5.0',
+88 silly addNameRange     '0.5.1',
+88 silly addNameRange     '0.5.2',
+88 silly addNameRange     '0.5.3',
+88 silly addNameRange     '0.5.4',
+88 silly addNameRange     '0.5.5',
+88 silly addNameRange     '0.5.6',
+88 silly addNameRange     '0.5.7',
+88 silly addNameRange     '0.5.8',
+88 silly addNameRange     '0.5.9',
+88 silly addNameRange     '0.5.10',
+88 silly addNameRange     '0.6.0',
+88 silly addNameRange     '0.6.1',
+88 silly addNameRange     '0.6.2',
+88 silly addNameRange     '0.6.3',
+88 silly addNameRange     '0.6.4',
+88 silly addNameRange     '0.6.5',
+88 silly addNameRange     '0.6.6',
+88 silly addNameRange     '0.6.7',
+88 silly addNameRange     '0.6.8',
+88 silly addNameRange     '0.6.9',
+88 silly addNameRange     '0.6.10',
+88 silly addNameRange     '0.6.11',
+88 silly addNameRange     '0.6.12',
+88 silly addNameRange     '0.6.13',
+88 silly addNameRange     '0.6.14',
+88 silly addNameRange     '0.6.15',
+88 silly addNameRange     '0.6.16',
+88 silly addNameRange     '0.6.17',
+88 silly addNameRange     '0.6.18',
+88 silly addNameRange     '0.6.19',
+88 silly addNameRange     '0.6.20',
+88 silly addNameRange     '0.6.21',
+88 silly addNameRange     '0.7.0',
+88 silly addNameRange     '0.7.1',
+88 silly addNameRange     '0.7.2',
+88 silly addNameRange     '0.7.3',
+88 silly addNameRange     '0.7.4',
+88 silly addNameRange     '0.7.5',
+88 silly addNameRange     '0.7.6',
+88 silly addNameRange     '0.7.7',
+88 silly addNameRange     '0.7.8',
+88 silly addNameRange     '0.7.9',
+88 silly addNameRange     '0.7.10',
+88 silly addNameRange     '0.7.11',
+88 silly addNameRange     '0.7.12',
+88 silly addNameRange     '0.8.0',
+88 silly addNameRange     '0.8.1',
+88 silly addNameRange     '0.8.2',
+88 silly addNameRange     '0.8.3',
+88 silly addNameRange     '0.8.4',
+88 silly addNameRange     '0.8.5',
+88 silly addNameRange     '0.8.6',
+88 silly addNameRange     '0.8.7',
+88 silly addNameRange     '0.8.8',
+88 silly addNameRange     '0.8.9',
+88 silly addNameRange     '0.8.10',
+88 silly addNameRange     '0.8.11',
+88 silly addNameRange     '0.8.12',
+88 silly addNameRange     '0.8.13',
+88 silly addNameRange     '0.8.14',
+88 silly addNameRange     '0.8.15',
+88 silly addNameRange     '0.8.16',
+88 silly addNameRange     '0.8.17',
+88 silly addNameRange     '0.8.18',
+88 silly addNameRange     '0.8.19',
+88 silly addNameRange     '0.8.20',
+88 silly addNameRange     '0.8.21',
+88 silly addNameRange     '0.8.22',
+88 silly addNameRange     '0.8.23',
+88 silly addNameRange     '0.8.24',
+88 silly addNameRange     '0.8.25',
+88 silly addNameRange     '0.8.26',
+88 silly addNameRange     '0.8.27',
+88 silly addNameRange     '0.8.28',
+88 silly addNameRange     '0.9.0',
+88 silly addNameRange     '0.9.1',
+88 silly addNameRange     '0.9.2',
+88 silly addNameRange     '0.9.3',
+88 silly addNameRange     '0.9.4',
+88 silly addNameRange     '0.9.5',
+88 silly addNameRange     '0.9.6',
+88 silly addNameRange     '0.9.7',
+88 silly addNameRange     '0.9.8',
+88 silly addNameRange     '0.9.9',
+88 silly addNameRange     '0.9.10',
+88 silly addNameRange     '0.9.11',
+88 silly addNameRange     '0.9.12',
+88 silly addNameRange     '0.10.0',
+88 silly addNameRange     '0.10.1',
+88 silly addNameRange     '0.10.2',
+88 silly addNameRange     '0.10.3',
+88 silly addNameRange     '0.10.4',
+88 silly addNameRange     '0.10.5',
+88 silly addNameRange     '0.10.6',
+88 silly addNameRange     '0.10.7',
+88 silly addNameRange     '0.10.8',
+88 silly addNameRange     '0.10.9',
+88 silly addNameRange     '0.10.10',
+88 silly addNameRange     '0.10.11',
+88 silly addNameRange     '0.10.12',
+88 silly addNameRange     '0.10.13',
+88 silly addNameRange     '0.10.14',
+88 silly addNameRange     '0.10.15',
+88 silly addNameRange     '0.10.16',
+88 silly addNameRange     '0.10.17',
+88 silly addNameRange     '0.10.18',
+88 silly addNameRange     '0.10.19',
+88 silly addNameRange     '0.10.20',
+88 silly addNameRange     '0.10.21',
+88 silly addNameRange     '0.10.22',
+88 silly addNameRange     '0.10.23',
+88 silly addNameRange     '0.10.24',
+88 silly addNameRange     '0.10.25',
+88 silly addNameRange     '0.10.26',
+88 silly addNameRange     '0.10.27',
+88 silly addNameRange     '0.10.28',
+88 silly addNameRange     '0.10.29',
+88 silly addNameRange     '0.10.30',
+88 silly addNameRange     '0.10.31',
+88 silly addNameRange     '0.10.32',
+88 silly addNameRange     '0.10.33',
+88 silly addNameRange     '0.10.34',
+88 silly addNameRange     '0.10.35',
+88 silly addNameRange     '0.10.36',
+88 silly addNameRange     '0.10.37',
+88 silly addNameRange     '0.10.38',
+88 silly addNameRange     '0.10.39',
+88 silly addNameRange     '0.10.40',
+88 silly addNameRange     '0.10.41',
+88 silly addNameRange     '0.10.42',
+88 silly addNameRange     '0.10.43',
+88 silly addNameRange     '0.10.44',
+88 silly addNameRange     '0.10.45',
+88 silly addNameRange     '0.10.46',
+88 silly addNameRange     '0.10.47',
+88 silly addNameRange     '0.10.48',
+88 silly addNameRange     '0.11.0',
+88 silly addNameRange     '0.11.1',
+88 silly addNameRange     '0.11.2',
+88 silly addNameRange     '0.11.3',
+88 silly addNameRange     '0.11.4',
+88 silly addNameRange     '0.11.5',
+88 silly addNameRange     '0.11.6',
+88 silly addNameRange     '0.11.7',
+88 silly addNameRange     '0.11.8',
+88 silly addNameRange     '0.11.9',
+88 silly addNameRange     '0.11.10',
+88 silly addNameRange     '0.11.11',
+88 silly addNameRange     '0.11.12',
+88 silly addNameRange     '0.11.13',
+88 silly addNameRange     '0.11.14',
+88 silly addNameRange     '0.11.15',
+88 silly addNameRange     '0.11.16',
+88 silly addNameRange     '0.12.0',
+88 silly addNameRange     '0.12.1',
+88 silly addNameRange     '0.12.2',
+88 silly addNameRange     '0.12.3',
+88 silly addNameRange     '0.12.4',
+88 silly addNameRange     '0.12.5',
+88 silly addNameRange     '0.12.6',
+88 silly addNameRange     '0.12.7',
+88 silly addNameRange     '0.12.8',
+88 silly addNameRange     '0.12.9',
+88 silly addNameRange     '0.12.10',
+88 silly addNameRange     '0.12.11',
+88 silly addNameRange     '0.12.12',
+88 silly addNameRange     '0.12.13',
+88 silly addNameRange     '0.12.14',
+88 silly addNameRange     '0.12.15',
+88 silly addNameRange     '0.12.16',
+88 silly addNameRange     '0.12.17',
+88 silly addNameRange     '0.12.18',
+88 silly addNameRange     '4.0.0',
+88 silly addNameRange     '4.1.0',
+88 silly addNameRange     '4.1.1',
+88 silly addNameRange     '4.1.2',
+88 silly addNameRange     '4.2.0',
+88 silly addNameRange     '4.2.1',
+88 silly addNameRange     '4.2.2',
+88 silly addNameRange     '4.2.3',
+88 silly addNameRange     '4.2.4',
+88 silly addNameRange     '4.2.5',
+88 silly addNameRange     '4.2.6',
+88 silly addNameRange     '4.3.0',
+88 silly addNameRange     '4.3.1',
+88 silly addNameRange     '4.3.2',
+88 silly addNameRange     '4.4.0',
+88 silly addNameRange     '4.4.1',
+88 silly addNameRange     '4.4.2',
+88 silly addNameRange     '4.4.3',
+88 silly addNameRange     '4.4.4',
+88 silly addNameRange     '4.4.5',
+88 silly addNameRange     '4.4.6',
+88 silly addNameRange     '4.4.7',
+88 silly addNameRange     '4.5.0',
+88 silly addNameRange     '4.6.0',
+88 silly addNameRange     '4.6.1',
+88 silly addNameRange     '4.6.2',
+88 silly addNameRange     '4.7.0',
+88 silly addNameRange     '4.7.1',
+88 silly addNameRange     '4.7.2',
+88 silly addNameRange     '4.7.3',
+88 silly addNameRange     '4.8.0',
+88 silly addNameRange     '4.8.1',
+88 silly addNameRange     '4.8.2',
+88 silly addNameRange     '4.8.3',
+88 silly addNameRange     '4.8.4',
+88 silly addNameRange     '5.0.0',
+88 silly addNameRange     '5.1.0',
+88 silly addNameRange     '5.1.1',
+88 silly addNameRange     '5.2.0',
+88 silly addNameRange     '5.3.0',
+88 silly addNameRange     '5.4.0',
+88 silly addNameRange     '5.4.1',
+88 silly addNameRange     '5.5.0',
+88 silly addNameRange     '5.6.0',
+88 silly addNameRange     '5.7.0',
+88 silly addNameRange     '5.7.1',
+88 silly addNameRange     '5.8.0',
+88 silly addNameRange     '5.9.0',
+88 silly addNameRange     '5.9.1',
+88 silly addNameRange     '5.10.0',
+88 silly addNameRange     '5.10.1',
+88 silly addNameRange     '5.11.0',
+88 silly addNameRange     '5.11.1',
+88 silly addNameRange     '5.12.0',
+88 silly addNameRange     '6.0.0',
+88 silly addNameRange     '6.1.0',
+88 silly addNameRange     '6.2.0',
+88 silly addNameRange     '6.2.1',
+88 silly addNameRange     '6.2.2',
+88 silly addNameRange     '6.3.0',
+88 silly addNameRange     '6.3.1',
+88 silly addNameRange     '6.4.0',
+88 silly addNameRange     '6.5.0',
+88 silly addNameRange     '6.6.0',
+88 silly addNameRange     '6.7.0',
+88 silly addNameRange     '6.8.0',
+88 silly addNameRange     '6.8.1',
+88 silly addNameRange     '6.9.0',
+88 silly addNameRange     '6.9.1',
+88 silly addNameRange     '6.9.2',
+88 silly addNameRange     '6.9.3',
+88 silly addNameRange     '6.9.4',
+88 silly addNameRange     '6.9.5',
+88 silly addNameRange     '6.10.0',
+88 silly addNameRange     '6.10.1',
+88 silly addNameRange     '6.10.2',
+88 silly addNameRange     '6.10.3',
+88 silly addNameRange     '6.11.0',
+88 silly addNameRange     '6.11.1',
+88 silly addNameRange     '7.0.0',
+88 silly addNameRange     '7.1.0',
+88 silly addNameRange     '7.2.0',
+88 silly addNameRange     '7.2.1',
+88 silly addNameRange     '7.3.0',
+88 silly addNameRange     '7.4.0',
+88 silly addNameRange     '7.5.0',
+88 silly addNameRange     '7.6.0',
+88 silly addNameRange     '7.7.0',
+88 silly addNameRange     '7.7.1',
+88 silly addNameRange     '7.7.2',
+88 silly addNameRange     '7.7.3',
+88 silly addNameRange     '7.7.4',
+88 silly addNameRange     '7.8.0',
+88 silly addNameRange     '7.9.0',
+88 silly addNameRange     '7.10.0',
+88 silly addNameRange     '7.10.1',
+88 silly addNameRange     '8.0.0',
+88 silly addNameRange     '8.1.0',
+88 silly addNameRange     '8.1.1',
+88 silly addNameRange     '8.1.2',
+88 silly addNameRange     '8.1.3',
+88 silly addNameRange     '8.1.4',
+88 silly addNameRange     '8.2.0',
+88 silly addNameRange     '8.2.1',
+88 silly addNameRange     '8.3.0',
+88 silly addNameRange     '8.4.0',
+88 silly addNameRange     '8.5.0',
+88 silly addNameRange     '8.6.0',
+88 silly addNameRange     '8.7.0',
+88 silly addNameRange     '8.8.0',
+88 silly addNameRange     '8.8.1',
+88 silly addNameRange     '8.9.0',
+88 silly addNameRange     '9.0.0',
+88 silly addNameRange     '4.8.6',
+88 silly addNameRange     '6.12.0',
+88 silly addNameRange     '9.1.0',
+88 silly addNameRange     '9.2.0',
+88 silly addNameRange     '8.9.1',
+88 silly addNameRange     '6.12.1',
+88 silly addNameRange     '8.9.2',
+88 silly addNameRange     '4.8.7',
+88 silly addNameRange     '6.12.2',
+88 silly addNameRange     '9.3.0',
+88 silly addNameRange     '8.9.4',
+88 silly addNameRange     '6.12.3',
+88 silly addNameRange     '9.4.0',
+88 silly addNameRange     '9.5.0',
+88 silly addNameRange     '6.13.0',
+88 silly addNameRange     '9.7.0',
+88 silly addNameRange     '9.6.0',
+88 silly addNameRange     '9.6.1',
+88 silly addNameRange     '8.10.0',
+88 silly addNameRange     '9.8.0',
+88 silly addNameRange     '9.9.0',
+88 silly addNameRange     '8.11.0',
+88 silly addNameRange     '6.14.0',
+88 silly addNameRange     '4.9.0',
+88 silly addNameRange     '9.10.0',
+88 silly addNameRange     '8.11.1',
+88 silly addNameRange     '4.9.1',
+88 silly addNameRange     '6.14.1',
+88 silly addNameRange     '9.10.1',
+88 silly addNameRange     '9.11.0',
+88 silly addNameRange     '10.0.0',
+88 silly addNameRange     '6.14.2',
+88 silly addNameRange     '6.11.5',
+88 silly addNameRange     '8.11.2',
+88 silly addNameRange     '10.1.0' ] ]
+89 silly addNamed node@10.1.0
+90 verbose addNamed "10.1.0" is a plain semver version for node
+91 silly mapToRegistry name node
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/node
+95 verbose addRemoteTarball https://registry.npmjs.org/node/-/node-10.1.0.tgz not in flight; adding
+96 verbose addRemoteTarball [ 'https://registry.npmjs.org/node/-/node-10.1.0.tgz',
+96 verbose addRemoteTarball   '818784992173cc16473f9991504585e305955e64' ]
+97 info retry fetch attempt 1 at 3:05:41 PM
+98 info attempt registry request try #1 at 3:05:41 PM
+99 http fetch GET https://registry.npmjs.org/node/-/node-10.1.0.tgz
+100 http fetch 200 https://registry.npmjs.org/node/-/node-10.1.0.tgz
+101 silly fetchAndShaCheck shasum 818784992173cc16473f9991504585e305955e64
+102 verbose addTmpTarball C:\Users\UDHAYA~1.M\AppData\Local\Temp\npm-6336-5960d525\registry.npmjs.org\node\-\node-10.1.0.tgz not in flight; adding
+103 verbose addTmpTarball already have metadata; skipping unpack for node@10.1.0
+104 silly cache afterAdd node@10.1.0
+105 verbose afterAdd C:\Users\udhayakumar.m\AppData\Roaming\npm-cache\node\10.1.0\package\package.json not in flight; writing
+106 verbose afterAdd C:\Users\udhayakumar.m\AppData\Roaming\npm-cache\node\10.1.0\package\package.json written
+107 silly install resolved [ { name: 'node',
+107 silly install resolved     version: '10.1.0',
+107 silly install resolved     description: 'node',
+107 silly install resolved     main: 'index.js',
+107 silly install resolved     keywords: [ 'runtime' ],
+107 silly install resolved     repository:
+107 silly install resolved      { type: 'git',
+107 silly install resolved        url: 'git+https://github.com/aredridel/node-bin-gen.git' },
+107 silly install resolved     scripts: { preinstall: 'node installArchSpecificPackage' },
+107 silly install resolved     bin: { node: 'bin/node' },
+107 silly install resolved     dependencies: { 'node-bin-setup': '^1.0.0' },
+107 silly install resolved     license: 'ISC',
+107 silly install resolved     author: '',
+107 silly install resolved     engines: { npm: '>=5.0.0' },
+107 silly install resolved     bugs: { url: 'https://github.com/aredridel/node-bin-gen/issues' },
+107 silly install resolved     homepage: 'https://github.com/aredridel/node-bin-gen#readme',
+107 silly install resolved     _id: 'node@10.1.0',
+107 silly install resolved     _npmVersion: '6.1.0-next.0',
+107 silly install resolved     _nodeVersion: '10.0.0',
+107 silly install resolved     _npmUser: { name: 'aredridel', email: 'aredridel@dinhe.net' },
+107 silly install resolved     dist:
+107 silly install resolved      { integrity: 'sha512-SZ54r7Lia87fiPVS9dAtE5IE3fVY8+ig5WBewV+c2y6YuCYERD7TctUxdYIX3P8UR74BhqvUfnSAYQx0U7FEVA==',
+107 silly install resolved        shasum: '818784992173cc16473f9991504585e305955e64',
+107 silly install resolved        tarball: 'https://registry.npmjs.org/node/-/node-10.1.0.tgz',
+107 silly install resolved        fileCount: 3,
+107 silly install resolved        unpackedSize: 1475,
+107 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa/5uQCRA9TVsSAnZWagAAzuEP/3jh4zxWZRXVy1sst46B\nqrhQBDYTBcctIVIU/sygC5N0UvdVW4QNWnwDHqcT7EQrspyMdSe7WHacLLrI\n9oy/F9bpVy0WXfFg1DpG9TkBkJwbqM0cjsEcqE7D6htpm2/ZM+qBIByC2Nqi\nmfrLWzVL4drcQ6jHxiXaDprLiON/1yUUsoCLz/LtyGzfXNKtDMtD7Wew/Mo2\nSYeaRosgBwZ1FVAfIM8EKGzimEf+FE12YJV8J0414kIYn5HPaD9iINyBj3N0\nnIgEA7bmjtISAxKj0yQat82bdsu6U+7zwKcLvRBK8qf7rWhbpojYm7N+l+4O\nuOX9pyz+EIiqI4Uj6dMmhJG+Wb8GiJ8ISEjg03hArrGaC/dABXtdX99ihB/y\n0f2bEUjlnLRpEpNxxb9SicgNGctADrUEbLm2PwGXG8rLkrqEXPWZIzyrjR9X\npdTwWwS7gr9jWV3rgtQ2wnfVcJ7IftQHxicz6m3Re24kwWQ8u3umPhvTzgvU\npKuPkEGJTXR2XUfRimTOjANUKnUyVXsHquJW77LSSqkoY5uALkFUeIsyxjpM\nGOlYOJjOIa0C+R8IRiQXDXyusBv+uIKs9DyyDCfe3ioaQL3/KGS8TaGfdhrP\nJLqk1MRhfcFARRM5huIYc0UlNbarRYv9wXlYG9+KOcv+sNaupdmb0I+KQLBo\nVKrn\r\n=+m9u\r\n-----END PGP SIGNATURE-----\r\n' },
+107 silly install resolved     maintainers: [ [Object], [Object] ],
+107 silly install resolved     directories: {},
+107 silly install resolved     _npmOperationalInternal:
+107 silly install resolved      { host: 's3://npm-registry-packages',
+107 silly install resolved        tmp: 'tmp/node_10.1.0_1526700943480_0.9440088060431437' },
+107 silly install resolved     _shasum: '818784992173cc16473f9991504585e305955e64',
+107 silly install resolved     _resolved: 'https://registry.npmjs.org/node/-/node-10.1.0.tgz',
+107 silly install resolved     _from: 'node@*' } ]
+108 info install node@10.1.0 into C:\Users\udhayakumar.m\Documents\Day10
+109 info installOne node@10.1.0
+110 verbose installOne of node to C:\Users\udhayakumar.m\Documents\Day10 not in flight; installing
+111 verbose lock using C:\Users\udhayakumar.m\AppData\Roaming\npm-cache\_locks\node-3b8f8d8cc159a360.lock for C:\Users\udhayakumar.m\Documents\Day10\node_modules\node
+112 warn engine node@10.1.0: wanted: {"npm":">=5.0.0"} (current: {"node":"0.12.4","npm":"2.10.1"})
+113 silly install write writing node 10.1.0 to C:\Users\udhayakumar.m\Documents\Day10\node_modules\node
+114 verbose unbuild node_modules\node
+115 silly gentlyRm C:\Users\udhayakumar.m\Documents\Day10\node_modules\node is being purged from base C:\Users\udhayakumar.m\Documents\Day10
+116 verbose gentlyRm don't care about contents; nuking C:\Users\udhayakumar.m\Documents\Day10\node_modules\node
+117 verbose tar unpack C:\Users\udhayakumar.m\AppData\Roaming\npm-cache\node\10.1.0\package.tgz
+118 verbose tar unpacking to C:\Users\udhayakumar.m\Documents\Day10\node_modules\node
+119 silly gentlyRm C:\Users\udhayakumar.m\Documents\Day10\node_modules\node is being purged
+120 verbose gentlyRm don't care about contents; nuking C:\Users\udhayakumar.m\Documents\Day10\node_modules\node
+121 silly gunzTarPerm modes [ '777', '666' ]
+122 silly gunzTarPerm extractEntry package.json
+123 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+124 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+125 silly gunzTarPerm modified mode [ 'installArchSpecificPackage.js', 420, 438 ]
+126 silly gunzTarPerm extractEntry README.md
+127 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+128 verbose write writing to C:\Users\udhayakumar.m\Documents\Day10\node_modules\node\package.json
+129 info preinstall node@10.1.0
+130 verbose unsafe-perm in lifecycle true
+131 info node@10.1.0 Failed to exec preinstall script
+132 verbose unlock done using C:\Users\udhayakumar.m\AppData\Roaming\npm-cache\_locks\node-3b8f8d8cc159a360.lock for C:\Users\udhayakumar.m\Documents\Day10\node_modules\node
+133 verbose stack Error: node@10.1.0 preinstall: `node installArchSpecificPackage`
+133 verbose stack Exit status 1
+133 verbose stack     at EventEmitter.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+133 verbose stack     at EventEmitter.emit (events.js:110:17)
+133 verbose stack     at ChildProcess.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+133 verbose stack     at ChildProcess.emit (events.js:110:17)
+133 verbose stack     at maybeClose (child_process.js:1015:16)
+133 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+134 verbose pkgid node@10.1.0
+135 verbose cwd C:\Users\udhayakumar.m\Documents\Day10
+136 error Windows_NT 6.1.7601
+137 error argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node"
+138 error node v0.12.4
+139 error npm  v2.10.1
+140 error code ELIFECYCLE
+141 error node@10.1.0 preinstall: `node installArchSpecificPackage`
+141 error Exit status 1
+142 error Failed at the node@10.1.0 preinstall script 'node installArchSpecificPackage'.
+142 error This is most likely a problem with the node package,
+142 error not with npm itself.
+142 error Tell the author that this fails on your system:
+142 error     node installArchSpecificPackage
+142 error You can get their info via:
+142 error     npm owner ls node
+142 error There is likely additional logging output above.
+143 verbose exit [ 1, true ]
+144 verbose unbuild node_modules\node
+145 info preuninstall node@10.1.0
+146 info uninstall node@10.1.0
+147 verbose unbuild rmStuff node@10.1.0 from C:\Users\udhayakumar.m\Documents\Day10\node_modules
+148 silly gentlyRm C:\Users\udhayakumar.m\Documents\Day10\node_modules\.bin\node.cmd is being gently removed
+149 silly gentlyRm verifying C:\Users\udhayakumar.m\Documents\Day10 is an npm working directory
+150 silly gentlyRm containing path C:\Users\udhayakumar.m\Documents\Day10 is under npm's control, in C:\Users\udhayakumar.m\Documents\Day10
+151 silly gentlyRm deletion target C:\Users\udhayakumar.m\Documents\Day10\node_modules\.bin\node.cmd is under C:\Users\udhayakumar.m\Documents\Day10
+152 verbose gentlyRm vacuuming from C:\Users\udhayakumar.m\Documents\Day10\node_modules\.bin\node.cmd up to C:\Users\udhayakumar.m\Documents\Day10
+153 silly gentlyRm C:\Users\udhayakumar.m\Documents\Day10\node_modules\.bin\node is being gently removed
+154 silly gentlyRm verifying C:\Users\udhayakumar.m\Documents\Day10 is an npm working directory
+155 silly gentlyRm containing path C:\Users\udhayakumar.m\Documents\Day10 is under npm's control, in C:\Users\udhayakumar.m\Documents\Day10
+156 silly gentlyRm deletion target C:\Users\udhayakumar.m\Documents\Day10\node_modules\.bin\node is under C:\Users\udhayakumar.m\Documents\Day10
+157 verbose gentlyRm vacuuming from C:\Users\udhayakumar.m\Documents\Day10\node_modules\.bin\node up to C:\Users\udhayakumar.m\Documents\Day10
+158 info postuninstall node@10.1.0
+159 silly gentlyRm C:\Users\udhayakumar.m\Documents\Day10\node_modules\node is being purged from base C:\Users\udhayakumar.m\Documents\Day10
+160 verbose gentlyRm don't care about contents; nuking C:\Users\udhayakumar.m\Documents\Day10\node_modules\node
+161 silly vacuum-fs purging C:\Users\udhayakumar.m\Documents\Day10\node_modules\node
+162 silly vacuum-fs quitting because other entries in C:\Users\udhayakumar.m\Documents\Day10\node_modules
